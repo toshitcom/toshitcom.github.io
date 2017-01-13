@@ -1,13 +1,26 @@
-/*
-	Colorized by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
-
+.iframe-rwd {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+		.icon.rounded {
+			background-color: #383b43;
+			border-radius: 1%;
+			color: #ffffff;
+			display: inline-block;
+			height: 4.6em;
+			line-height: 4.6em;
+			text-align: center;
+			width: 100%;
+		}
 	body,input,textarea,select
 	{
 		line-height: 1.75em;
